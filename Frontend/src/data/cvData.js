@@ -107,6 +107,13 @@ export const cvData = {
     {
       title: "AtomLabs Learning",
       description: "Platform pembelajaran kimia interaktif yang dilengkapi dengan 3D atom builder, tabel periodik unsur dinamis, dan kuis interaktif untuk mempermudah pemahaman ilmu kimia.",
+      longDescription: "AtomLabs Learning adalah platform e-learning inovatif yang dirancang khusus untuk memvisualisasikan teori struktur atom secara interaktif dan menyenangkan. Proyek ini memecahkan tantangan metode belajar konvensional yang abstrak dengan menghadirkan simulasi berbasis 3D, kuis edukasi yang interaktif, dan tabel periodik yang informatif.",
+      features: [
+        "Interactive 3D Atom Builder (membangun visualisasi atom dengan proton, neutron, dan elektron secara real-time)",
+        "Dynamic Periodic Table (tabel unsur periodik dengan informasi lengkap)",
+        "Gamified Quizzes (latihan soal seru berbatas waktu)",
+        "Fully Responsive Web App (antarmuka dashboard premium yang responsif di HP/PC)"
+      ],
       image: "img/atom_dashboard.png",
       technologies: ["React", "Vite", "GSAP", "Three.js", "Vanilla CSS"],
       demoUrl: "https://atomlabs-learning.vercel.app",

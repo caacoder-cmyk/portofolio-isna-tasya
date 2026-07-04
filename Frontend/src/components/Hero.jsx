@@ -1,4 +1,5 @@
 import React from 'react';
+import { Typewriter } from './Typewriter';
 
 export function Hero() {
   return (
@@ -19,11 +20,23 @@ export function Hero() {
           <span class="status-badge">Let's Talk</span>
         </div>
         <h1>Isna Tasya<br /><span>Sabikah</span></h1>
+        
+        <div className="hero-subtitle">
+          I am a <Typewriter words={[
+            "Software Engineering Student",
+            "Frontend Web Developer",
+            "UI/UX Design Enthusiast",
+            "Detail-oriented Organizer"
+          ]} />
+        </div>
+        
         <p>
           An informatics software engineering student exploring the intersection of web development, administration, and digital layouts.
         </p>
         <div className="hero-btn-container">
-          <a href="#about" className="hero-btn primary" id="btn-explore">My Resume</a>
+          <a href="/CV_Isna_Tasya_Sabikah.pdf" download className="hero-btn primary" id="btn-download-cv">
+            Download CV 📥
+          </a>
           <a href="#contact" className="hero-btn secondary" id="btn-contact-hero">Let's Talk</a>
         </div>
       </div>
