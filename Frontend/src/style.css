@@ -1177,7 +1177,22 @@ footer {
   
   .section-header {
     padding-left: 0;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .section-num {
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 3rem;
+    margin-bottom: 5px;
+  }
+  
+  .section-title {
+    font-size: 2.2rem;
   }
   
   .chronology-list {
