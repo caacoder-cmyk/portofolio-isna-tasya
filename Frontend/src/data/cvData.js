@@ -78,15 +78,17 @@ export const cvData = {
       "Kerja sama tim & koordinasi",
       "Ketelitian & fokus tinggi",
       "Manajemen Waktu",
-      "Komunikasi Profesional"
+      "Komunikasi Profesional & Organisasi"
     ],
     hard: [
-      "Administrasi Perkantoran",
-      "Microsoft Word & Excel",
-      "Manajemen Dokumen",
-      "Penulisan Surat & Notulen",
-      "Entry Data",
-      "Design"
+      "React & JavaScript (ES6+)",
+      "Vite & Frontend Tooling",
+      "GSAP Animations",
+      "HTML5 & CSS3 (Grid/Flexbox/Responsive)",
+      "Git & GitHub (Version Control)",
+      "UI/UX Design & Layouting",
+      "Administrasi Perkantoran & Manajemen Dokumen",
+      "Microsoft Office (Word, Excel, PowerPoint)"
     ]
   },
   certifications: [
