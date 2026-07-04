@@ -1,0 +1,10 @@
+{
+  "name": "portofolio-aca-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix Frontend",
+    "build": "npm run build --prefix Frontend",
+    "preview": "npm run preview --prefix Frontend"
+  }
+}
