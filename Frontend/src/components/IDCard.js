@@ -134,12 +134,12 @@ export class IDCard {
     // Sleek Card Body Frame (Glowing metal frame border - colors anim dynamically!)
     const frameGeometry = new THREE.BoxGeometry(this.cardWidth + 0.03, this.cardHeight + 0.03, this.cardDepth);
     this.frameMaterial = new THREE.MeshPhysicalMaterial({
-      color: 0x00f0ff, // initial cyan neon
+      color: 0xff007f, // initial pink neon
       roughness: 0.1,
       metalness: 0.9,
       clearcoat: 1.0,
       clearcoatRoughness: 0.1,
-      emissive: 0x00f0ff,
+      emissive: 0xff007f,
       emissiveIntensity: 0.45, // neon glowing emissive border!
       transparent: true,
       opacity: 1.0
@@ -386,12 +386,12 @@ export class IDCard {
     
     // 3. Dynamic Frame Neon Color Shifting ("Ubah-ubah warna" - Faris EDP style)
     if (this.frameMaterial && opacity > 0) {
-      // Create HSL color cycle slowly over time combined with mouse X offset
-      const mouseOffset = (mouse.x + 1.0) * 0.15; // shifts hue based on mouse move
-      const hue = (time * 0.08 + mouseOffset) % 1.0; 
+      // Create HSL color cycle slowly over time combined with mouse X offset (restricted to pink/magenta/purple spectrum)
+      const mouseOffset = (mouse.x + 1.0) * 0.05; 
+      const hue = 0.82 + ((time * 0.04 + mouseOffset) % 1.0) * 0.16; 
       
       // Update color and emissive properties for double glow!
-      const frameColor = new THREE.Color().setHSL(hue, 0.9, 0.55);
+      const frameColor = new THREE.Color().setHSL(hue, 0.95, 0.55);
       this.frameMaterial.color.copy(frameColor);
       this.frameMaterial.emissive.copy(frameColor);
       

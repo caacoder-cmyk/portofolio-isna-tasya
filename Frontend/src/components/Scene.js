@@ -43,7 +43,7 @@ export class SceneManager {
     this.mainLight.position.set(5, 5, 4);
     this.scene.add(this.mainLight);
 
-    this.accentLight = new THREE.PointLight(0x00f0ff, 3, 15); // Cyan glow by default
+    this.accentLight = new THREE.PointLight(0xff007f, 3, 15); // Pink glow by default
     this.accentLight.position.set(-4, -2, 2);
     this.scene.add(this.accentLight);
 
@@ -79,7 +79,7 @@ export class SceneManager {
       this.ambientLight.intensity = 0.4;
       this.mainLight.color.setHex(0xffd1dc);
       this.mainLight.intensity = 1.5;
-      this.accentLight.color.setHex(0x00f0ff); // Cyan glow in dark theme
+      this.accentLight.color.setHex(0xff007f); // Pink glow in dark theme
       this.accentLight.intensity = 3.0;
       this.subtleBacklight.color.setHex(0x7a1f32);
       this.subtleBacklight.intensity = 1.0;
