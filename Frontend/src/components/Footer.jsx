@@ -3,6 +3,7 @@ import { cvData } from '../data/cvData';
 
 export function Footer() {
   const { contact } = cvData;
+  const waText = encodeURIComponent("Halo Tasya! Saya melihat website portofolio Anda dan tertarik untuk terhubung atau berdiskusi mengenai kerja sama.\n\nNama: \nKeperluan: ");
   
   return (
     <footer id="contact">
@@ -15,7 +16,7 @@ export function Footer() {
         <div className="social-links">
           <a href={`mailto:${contact.email}`} className="social-btn" id="social-mail" title="Email">✉</a>
           <a 
-            href={`https://wa.me/62${contact.phone.replace(/^0/, '')}`} 
+            href={`https://wa.me/62${contact.phone.replace(/^0/, '')}?text=${waText}`} 
             target="_blank" 
             rel="noopener noreferrer" 
             className="social-btn" 
