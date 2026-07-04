@@ -1,7 +1,8 @@
 Curriculum Vitae (CV) - Isna Tasya Sabikah
 =========================================
 
-[Silakan ganti file ini dengan file PDF asli Anda dengan nama: CV_Isna_Tasya_Sabikah.pdf di folder Frontend/public/]
+[PENTING: Silakan ganti berkas ini dengan berkas PDF asli Anda! Caranya: salin berkas PDF asli Anda ke dalam folder:
+"Portofolio aca/Frontend/public/" lalu ubah namanya menjadi "CV_Isna_Tasya_Sabikah.pdf" dan sesuaikan tautan di Hero.jsx jika ingin menggunakan ekstensi .pdf]
 
 Profil Profesional:
 -------------------
