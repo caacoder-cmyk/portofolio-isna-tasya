@@ -34,7 +34,7 @@ export function Hero() {
           An informatics software engineering student exploring the intersection of web development, administration, and digital layouts.
         </p>
         <div className="hero-btn-container">
-          <a href="/CV_Isna_Tasya_Sabikah.txt" download className="hero-btn primary" id="btn-download-cv">
+          <a href="/CV_Isna_Tasya_Sabikah.pdf" download className="hero-btn primary" id="btn-download-cv">
             Download CV 📥
           </a>
           <a href="#contact" className="hero-btn secondary" id="btn-contact-hero">Let's Talk</a>
