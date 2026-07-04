@@ -81,7 +81,8 @@ export const cvData = {
       "Komunikasi Profesional & Organisasi"
     ],
     hard: [
-      "React & JavaScript (ES6+)",
+      "React.js",
+      "JavaScript (ES6+)",
       "Vite & Frontend Tooling",
       "GSAP Animations",
       "HTML5 & CSS3 (Grid/Flexbox/Responsive)",
